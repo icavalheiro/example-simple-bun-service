@@ -2,7 +2,7 @@ Bun.serve( {
     port: 3000,
     fetch ()
     {
-        return new Response( "It works! :D" );
+        return new Response( "It works! :P" );
     },
 } );
 
